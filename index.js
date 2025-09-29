@@ -3,7 +3,7 @@ const secrets = [
   "Majestic 12 (MJ-12) — a ////// secret committee of scientists, military leaders, and government officials formed in 1947.",
   "July 14, 1954 — classified documents reference unauthorized aerial activity near Roswell.",
   "nasajim108 was right (unknown status)",
-  "Teutates was right (Presumed dead 2023-????? with 4 informational videos found on his channel)",
+  "Teutates716 was right (Presumed dead 2023-????? with 4 informational videos found on his channel)",
   "Pentagon denies existence of ‘Yankee Blue’ covert surveillance project.",
   "FAA logs show 'Black Cube' sightings over Wright-Patterson AFB remain unexplained.",
   "What if the government could change people’s moral beliefs or stop political dissent through remote control of the brain?",
