@@ -1,0 +1,129 @@
+
+    :root {
+      --neon-green: #a61515c5;
+      --background: #0d0d0d;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--background);
+      font-family: 'Press Start 2P', monospace;
+      color: var(--neon-green);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+      position: relative;
+    }
+
+    .page-wrapper {
+      max-width: 900px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .neon-title {
+      font-size: 1.2rem;
+      color: #fff;
+      margin-bottom: 20px;
+      text-shadow:
+        0 0 5px rgb(175, 11, 11),
+        0 0 10px rgb(175, 13, 13),
+        0 0 20px rgb(175, 13, 13),
+        0 0 30px rgb(175, 13, 13);
+    }
+
+    .neon-image {
+      width: 120px;
+      max-width: 100%;
+      height: auto;
+      border: 4px solid var(--neon-green);
+      border-radius: 10px;
+      margin: 0 auto 30px;
+      box-shadow:
+        0 0 8px var(--neon-green),
+        0 0 16px var(--neon-green),
+        0 0 24px var(--neon-green);
+      display: block;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--neon-green);
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 0 20px var(--neon-green);
+      min-height: 200px;
+    }
+
+    .secret {
+      font-size: 0.6rem;
+      margin: 12px 0;
+      text-shadow: 0 0 4px var(--neon-green);
+      text-align: left;
+      white-space: pre-wrap;
+    }
+
+    button {
+      background: none;
+      border: 2px solid var(--neon-green);
+      color: var(--neon-green);
+      padding: 10px 25px;
+      font-size: 0.6rem;
+      cursor: pointer;
+      margin-top: 25px;
+      text-shadow: 0 0 3px var(--neon-green);
+      border-radius: 6px;
+      transition: all 0.3s ease;
+      font-family: 'Press Start 2P', monospace;
+    }
+
+    button:hover {
+      background-color: var(--neon-green);
+      color: #000;
+      box-shadow: 0 0 10px var(--neon-green);
+    }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    @media (max-width: 600px) {
+      .neon-title {
+        font-size: 1rem;
+      }
+
+      .secret {
+        font-size: 0.5rem;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
+
+    .clock, .date {
+      position: absolute;
+      font-size: 0.5rem;
+      color: var(--neon-green);
+      opacity: 0.8;
+      text-shadow: 0 0 4px var(--neon-green);
+      font-family: 'Press Start 2P', monospace;
+    }
+
+    .clock {
+      top: 10px;
+      left: 10px;
+    }
+
+    .date {
+      top: 10px;
+      right: 10px;
+    }
